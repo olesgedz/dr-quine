@@ -1,0 +1,1 @@
+nasm -f macho64  Grace.s; gcc Grace.o; ./a.out > Grace_tmp; diff Grace.s Grace_tmp 
